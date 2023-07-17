@@ -30,6 +30,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- slick -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <!-- Magnific Popup core CSS file -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+    />
     <!-- my css -->
     <link rel="stylesheet" href="../assets/css/style.css" />
   </head>
@@ -59,18 +73,260 @@
     <section class="status"></section>
     <!-- End Status -->
     <!-- VideoPopup -->
-    <section class="popup"></section>
+    <section class="popup">
+      <div class="container py-5">
+        <img class="w-100" src="../assets/images/banner3.jpg" alt="" />
+      </div>
+    </section>
     <!-- End VideoPopup -->
     <!-- Blog -->
-    <section class="blog"></section>
+    <section class="blog">
+      <div class="container py-5">
+        <div class="blog__title text-center mb-5">
+          <h4 class="blog__maintitle">Latest Posts</h4>
+          <h1 class="blog__subtitle">Blog Posts</h1>
+        </div>
+        <div class="blog__list row">
+          <div class="blog__item mb-5 col-12 col-md-6 col-lg-4">
+            <div class="blog__image__container position-relative">
+              <a href="">
+                <img class="w-100" src="../assets/images/g1.jpg" alt="" />
+              </a>
+              <a href="" class="position-absolute">Drinks</a>
+            </div>
+            <div class="blog__item__title mt-3">
+              <h4><a href="">Hello World!</a></h4>
+            </div>
+            <div
+              class="blog__detail d-flex justify-content-between align-items-center font-weight-bold"
+            >
+              <div class="avatar d-flex align-items-center">
+                <a class="w-100 mr-2" href="">
+                  <img
+                    src="https://secure.gravatar.com/avatar/328cc1f23e4a3b73aa60ee6ced1897a1?s=40&d=mm&r=g"
+                    alt=""
+                  />
+                </a>
+                <a href="" style="line-height: 100%">W3Layouts</a>
+              </div>
+              <a href="" class="read-more">
+                <span>Read More</span>
+                <i class="fa fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="blog__item mb-5 col-12 col-md-6 col-lg-4">
+            <div class="blog__image__container position-relative">
+              <a href="">
+                <img
+                  class="w-100"
+                  src="https://wp.w3layouts.com/diner/wp-content/uploads/sites/25/2021/03/g7.jpg"
+                  alt=""
+                />
+              </a>
+              <a href="" class="position-absolute">Drinks</a>
+            </div>
+            <div class="blog__item__title mt-3">
+              <h4>
+                <a href="">The Best Cookie Recipes To Bake This Weekend</a>
+              </h4>
+            </div>
+            <div
+              class="blog__detail d-flex justify-content-between align-items-center font-weight-bold"
+            >
+              <div class="avatar d-flex align-items-center">
+                <a class="w-100 mr-2" href="">
+                  <img
+                    src="https://secure.gravatar.com/avatar/328cc1f23e4a3b73aa60ee6ced1897a1?s=40&d=mm&r=g"
+                    alt=""
+                  />
+                </a>
+                <a href="" style="line-height: 100%">W3Layouts</a>
+              </div>
+              <a href="" class="read-more">
+                <span>Read More</span>
+                <i class="fa fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="blog__item mb-5 col-12 col-md-6 col-lg-4">
+            <div class="blog__image__container position-relative">
+              <a href="">
+                <img class="w-100" src="../assets/images/g5.jpg" alt="" />
+              </a>
+              <a href="" class="position-absolute">Food</a>
+            </div>
+            <div class="blog__item__title mt-3">
+              <h4>
+                <a href="">The Best Cookie Recipes To Bake This Weekend</a>
+              </h4>
+            </div>
+            <div
+              class="blog__detail d-flex justify-content-between align-items-center font-weight-bold"
+            >
+              <div class="avatar d-flex align-items-center">
+                <a class="w-100 mr-2" href="">
+                  <img
+                    src="https://secure.gravatar.com/avatar/328cc1f23e4a3b73aa60ee6ced1897a1?s=40&d=mm&r=g"
+                    alt=""
+                  />
+                </a>
+                <a href="" style="line-height: 100%">W3Layouts</a>
+              </div>
+              <a href="" class="read-more">
+                <span>Read More</span>
+                <i class="fa fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- End Blog -->
     <!-- Testimonials -->
-    <section class="testimonials"></section>
+    <section class="testimonials">
+      <div class="container py-5">
+        <div class="testimonials__title text-center">
+          <h4 class="testimonials__maintitle">Testimonials</h4>
+          <h1 class="testimonials__subtitle">What People Say</h1>
+        </div>
+        <div class="carousel text-center">
+          <div class="carousel__list">
+            <div class="carousel__item">
+              <div class="item__container">
+                <img src="../assets/images/team1.jpg" alt="" />
+                <i class="fa fa-quote-left mt-4"></i>
+                <q class="quote">OMG! I cannot believe. It's Awesome</q>
+                <p class="customer-review py-3 w-75">
+                  My new site is so much faster and easier to work with than my
+                  old site. They are here to help the customers to get their
+                  success. Nemo sit eos, quod minus eius illo labore. Pellen
+                  tesque libero ut justo, ultrices in ligula.
+                </p>
+                <p class="customer-name">Johnson William</p>
+                <p class="customer-role">Customer</p>
+              </div>
+            </div>
+            <div class="carousel__item">
+              <div class="item__container">
+                <img src="../assets/images/team2.jpg" alt="" />
+                <i class="fa fa-quote-left mt-4"></i>
+                <q class="quote">Simply the best. Better than all the rest.</q>
+                <p class="customer-review py-3 w-75">
+                  My new site is so much faster and easier to work with than my
+                  old site. They are here to help the customers to get their
+                  success. Nemo sit eos, quod minus eius illo labore. Pellen
+                  tesque libero ut justo, ultrices in ligula.
+                </p>
+                <p class="customer-name">Alexander Sakura</p>
+                <p class="customer-role">Customer</p>
+              </div>
+            </div>
+            <div class="carousel__item">
+              <div class="item__container">
+                <img src="../assets/images/team3.jpg" alt="" />
+                <i class="fa fa-quote-left mt-4"></i>
+                <q class="quote">OMG! I cannot believe. It's Awesome</q>
+                <p class="customer-review py-3 w-75">
+                  My new site is so much faster and easier to work with than my
+                  old site. They are here to help the customers to get their
+                  success. Nemo sit eos, quod minus eius illo labore. Pellen
+                  tesque libero ut justo, ultrices in ligula.
+                </p>
+                <p class="customer-name">John Wilson</p>
+                <p class="customer-role">Customer</p>
+              </div>
+            </div>
+            <div class="carousel__item">
+              <div class="item__container">
+                <img src="../assets/images/team2.jpg" alt="" />
+                <i class="fa fa-quote-left mt-4"></i>
+                <q class="quote">OMG! I cannot believe. It's Awesome</q>
+                <p class="customer-review py-3 w-75">
+                  My new site is so much faster and easier to work with than my
+                  old site. They are here to help the customers to get their
+                  success. Nemo sit eos, quod minus eius illo labore. Pellen
+                  tesque libero ut justo, ultrices in ligula.
+                </p>
+                <p class="customer-name">Julia Sakura</p>
+                <p class="customer-role">Customer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- End Testimonials -->
     <!-- Footer -->
     <footer>
-      <button id="movetop"></button>
+      <div class="container">
+        <div class="footer__list row py-5">
+          <div class="footer__item col-12 col-md-6 col-lg-4">
+            <h4><a href="">Diner</a></h4>
+            <p>
+              Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+              ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
+              amet Semper at elit.
+            </p>
+            <ul
+              class="footer__icon d-flex justify-content-center justify-content-lg-start"
+            >
+              <li>
+                <a>
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a><i class="fab fa-linkedin-in"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__item col-6 col-md-6 col-lg-2">
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="#">Drinks</a></li>
+              <li><a href="#">Food</a></li>
+            </ul>
+          </div>
+          <div class="footer__item col-6 col-md-6 col-lg-2">
+            <h4>Archives</h4>
+            <ul>
+              <li><a href="#">March 2021</a></li>
+            </ul>
+          </div>
+          <div class="footer__item col-12 col-md-6 col-lg-4">
+            <h4>Subscribe to our Newsletter</h4>
+            <p>
+              Enter your email and receive the latest news, updates and special
+              offers from us.
+            </p>
+            <div class="subscribe__email">
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Your Email Address"
+              />
+              <button class="mt-2 w-100 py-3">Subscribe Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="container py-3 copyright">
+        © 2023 Diner. All Rights Reserved | WordPress Theme by
+        <a href="#">W3Layouts.</a>
+      </div>
     </footer>
+    <button id="movetop" class="cd-top js-cd-top">
+      <i class="fa fa-angle-up"></i>
+    </button>
     <!-- End Footer -->
     <!-- Move Top -->
     <script></script>
@@ -93,7 +349,24 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/returnToTop.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.carousel__list').slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          dots: true,
+        });
+      });
+    </script>
+    <!-- Magnific Popup core JS file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <!-- my js -->
-    <link rel="stylesheet" href="../assets/js/main.js" />
+    <script src="../assets/js/main.js"></script>
   </body>
 </html>
