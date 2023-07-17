@@ -36,6 +36,10 @@ header {
 }
 /* End Status */
 /* VideoPopup */
+.dark .popup {
+  background-color: #232220;
+}
+
 .popup__container .popup__image img {
   border-radius: 10px;
 }
@@ -145,6 +149,14 @@ div#small-dialog iframe {
   background-color: #f7f7f7;
 }
 
+.dark .blog {
+  background-color: #282828;
+}
+
+.dark .blog__subtitle {
+  color: #eeeeee;
+}
+
 .blog__image__container img {
   width: 100%;
   border-radius: 5px;
@@ -178,9 +190,21 @@ div#small-dialog iframe {
   color: black;
 }
 
+.dark .blog__item__title h4 a {
+  color: #eeeeee;
+}
+
+.dark .author {
+  color: #eeeeee;
+}
+
 .read-more {
   color: black;
   transition: 0.3s;
+}
+
+.dark .read-more {
+  color: #eeeeee;
 }
 
 .read-more:hover {
@@ -193,8 +217,19 @@ div#small-dialog iframe {
 .testimonials__maintitle {
   color: #ff6803;
 }
+
 .dark .testimonials {
   background-color: #232220;
+}
+
+.dark .testimonials__subtitle,
+.dark .customer-name {
+  color: #eeeeee;
+}
+
+.dark .customer-review,
+.dark .customer-role {
+  color: #c2d0da;
 }
 /* End testimonials */
 /* Footer */
@@ -393,6 +428,10 @@ a:hover {
   font-style: italic;
   font-size: 25px;
   font-weight: 700;
+}
+
+.dark .quote {
+  color: #eeeeee;
 }
 
 .customer-name {
