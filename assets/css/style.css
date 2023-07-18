@@ -348,6 +348,7 @@ ul {
   border-radius: 50%;
   color: white;
   background-color: #ff6600;
+  display: none;
 }
 
 #movetop:focus {
