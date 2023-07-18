@@ -63,9 +63,7 @@ header {
   margin: 40px auto;
 }
 div#small-dialog iframe {
-  width: 100%;
   height: 420px;
-  display: block;
   border-radius: 10px;
 }
 .mfp-close-btn-in .mfp-close {
@@ -129,7 +127,6 @@ div#small-dialog iframe {
 }
 
 .video-play-icon {
-  display: inline-block;
   width: 80px;
   height: 80px;
   font-size: 26px;
@@ -257,7 +254,6 @@ footer {
 }
 
 .footer__item ul {
-  display: grid;
   gap: 10px;
 }
 
@@ -331,6 +327,13 @@ footer {
   border-radius: 5px;
   font-weight: bold;
   font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.subscribe__email button:hover {
+  opacity: 0.8;
+  transition: 0.3s;
 }
 
 ul {
@@ -340,7 +343,6 @@ ul {
 #movetop {
   bottom: 50px;
   right: 50px;
-  z-index: 99;
   cursor: pointer;
   border: none;
   width: 50px;
@@ -348,7 +350,6 @@ ul {
   border-radius: 50%;
   color: white;
   background-color: #ff6600;
-  display: none;
 }
 
 #movetop:focus {
