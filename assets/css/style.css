@@ -3,6 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+} */
 /* Header */
 header {
 }
@@ -21,6 +33,21 @@ header {
 /* End Feature */
 /* Category */
 .category {
+}
+.title-subhny {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #ff6600;
+  display: block;
+  font-family: "Pacifico", cursive;
+}
+.title-w3l {
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 600;
+  color: #232121;
 }
 /* End Category */
 /* Service */
