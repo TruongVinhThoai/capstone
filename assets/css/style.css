@@ -71,9 +71,9 @@ header {
   font-weight: 600;
   font-family: "Quicksand", sans-serif;
 }
-.justify-content-center {
+/* .justify-content-center {
   justify-content: center !important;
-}
+} */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -367,10 +367,14 @@ p.count-text {
 }
 /* Dark status */
 .dark .status {
-  /* background-color: #232220; */
+  background-color: #ff6600;
+  position: relative;
+  z-index: -1;
 }
 .dark .counter {
   background-color: #232220;
+  position: relative;
+  z-index: 10;
 }
 .dark .timer {
   color: #eee;
