@@ -4,19 +4,313 @@
   box-sizing: border-box;
 }
 /* Header */
-header {
+
+.navbar a{
+  color: white;
 }
-/* End Header */
-/* Banner */
-.banner {
+
+.navbar {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%
 }
-/* End Banner */
-/* About Us */
-.about {
+
+.navbar-brand {
+  color: #fff;
+  font-size: 34px;
+  font-weight: 700;
 }
-/* End About Us */
-/* Feature */
-.feature {
+
+.navbar-expand-lg .navbar-toggler {
+  display: block;
+}
+
+.navbar-collapse {
+  justify-content: end;
+}
+
+.nav-search {
+  margin-left: -35px;
+}
+
+.btn_btn{
+  color: white;
+  font-size: 28px;
+  background: none;
+  border: none;
+}
+
+#toggle-button{
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: white;
+  padding: 0 10px;
+}
+
+.modal-content {
+  background-color: transparent;
+  border: none
+}
+
+.modal-header {
+  border-bottom: none;
+  text-align: center;
+  margin: auto;
+}
+
+.modal-menu {
+  list-style: none;
+}
+
+.modal-menu-item {
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  transition: all ease-in-out 0.3s;
+}
+
+.modal-menu-item:hover {
+  color: #ff6600;
+  cursor: pointer;
+}
+
+.fade {
+  opacity: 1;
+}
+
+.modal-open .modal {
+  background: rgb(6 3 0 / 70%);
+  transition: all 0.4s;
+}
+
+.close {
+  position: absolute;
+  overflow: hidden;
+}
+
+button.close {
+  width: 40px;
+  height: 40px;
+  right: 40px;
+  top: 40px;
+  background: #ff6600;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  opacity: 1;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+.modal-backdrop{
+  z-index: 0;
+}
+
+.search{
+  position: relative;
+}
+
+.search_input{
+  padding: 10px 30px;
+  border: none;
+  border-radius: 8px;
+}
+
+.search span i{
+  position: absolute;
+  top:15px;
+  right: 10px;
+  /* line-height: 1; */
+}
+/* btn sun moon */
+.btnsunmoon{
+  font-size: 20px;
+  width: 60px;
+  margin: 20px;
+}
+/* banner */
+.crs {
+  background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)), url(../images/banner1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-attachment: fixed;
+  min-height: 700px;
+  height: 700px;
+  display: grid;
+  align-items: center;
+  position: relative;
+}
+
+.crs_info{
+  margin-right: 50%;
+}
+
+.crs_info h3{
+  font-size: 55px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.crs_info p{
+  color: white;
+  margin-bottom: 50px;
+}
+
+.crs button {
+  background: none;
+  border-radius: 8px;
+  padding: 15px 50px;
+  color: white;
+  border: 2px solid white;
+  transition: all 0.5s;
+  font-weight: 700;
+}
+
+.crs button:hover{
+  background: white;
+  color: #ff6600;
+}
+
+/* About us */
+.about .row h6{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #ff6600;
+  display: block;
+  font-family: 'Pacifico';
+}
+
+
+.about .col-lg-5 h3{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.about .col-lg-7 p{
+  line-height: 30px;
+  color: rgba(22, 28, 45, 0.7);
+  font-size: 18px;
+}
+
+/* best */
+.best_icon i{
+  background-color: white;
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  font-size: 25px;
+  color: #ff6600;
+  transition: all .5s;
+}
+
+.best_deal_food a{
+  text-decoration: none;
+}
+
+.best_deal_food a{
+  color:black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.best_deals:hover i{
+  color: #ffc600;
+}
+
+.best_food:hover i{
+  color: #ffc600;
+}
+
+
+.best_left h6{
+  font-family: 'Pacifico';
+  color: white;
+  font-size: 20px;
+}
+
+.best_left h3{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.best_left p{
+  line-height: 30px;
+  color: white;
+  font-size: 18px;
+}
+
+.best .best_img{
+  background: url(../images/banner3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+/* Light theme */
+#myBody {
+  background-color: white;
+  }
+  #switchButton {
+  background-color: white;
+  border: 0px solid black;
+  }
+  #switchButton .fa-sun {
+  display: none;
+  }
+  #switchButton .fa-moon {
+  display: block;
+  }
+  
+/* Dark Theme*/
+.dark#myBody {
+  background-color: #333;
+}
+.dark #switchButton {
+  background-color: #333;
+}
+
+.dark .search_input{
+  background-color: #333;
+  color: white;
+}
+
+.dark #switchButton .fa-sun {
+  display: block;
+  color: white;
+}
+.dark #switchButton .fa-moon {
+  display: none;
+}
+
+/* About US dark */
+.dark .abus_content{
+  background-color: #333;
+  color: white;
+}
+.dark .abus_content p{
+  background-color: #333;
+  color: white;
+}
+/* BEST DARK */
+.dark .best_left{
+  color: white;
+}
+
+.dark .best_deal_food a{
+  color: white;
 }
 /* End Feature */
 /* Category */

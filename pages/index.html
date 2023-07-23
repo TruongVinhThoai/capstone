@@ -49,16 +49,157 @@
   </head>
   <body>
     <!-- Header  -->
-    <header></header>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">Diner</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="search">
+              <input
+                type="search"
+                class="search_input"
+                name=""
+                placeholder="Search here"
+                required=""
+              />
+              <span>
+                <i class="fa fa-search search_icon"></i>
+              </span>
+            </form>
+            <button
+              class="btnsunmoon"
+              id="switchButton"
+              title="Click to switch theme"
+            >
+              <i class="far fa-moon"></i>
+              <i class="far fa-sun"></i>
+            </button>
+            <button
+              type="button"
+              class="btn_btn"
+              data-toggle="modal"
+              data-target="#exampleModalCenter"
+            >
+              <span><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModalCenter"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <ul class="modal-menu">
+                      <li class="modal-menu-item">Home</li>
+                      <li class="modal-menu-item">About</li>
+                      <li class="modal-menu-item">Services</li>
+                      <li class="modal-menu-item">Blog Posts</li>
+                      <li class="modal-menu-item">404 page</li>
+                      <li class="modal-menu-item">Contact</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
     <!-- End Header  -->
     <!-- Banner -->
-    <section class="banner"></section>
+    <section class="crs">
+      <div class="container py-5">
+        <div class="crs_info">
+          <h3>The Only Thing We Love More Than Food Is You!</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, vel.
+          </p>
+          <button>
+            Read More
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
     <!--  End Banner -->
     <!-- About Us -->
-    <section class="about"></section>
+    <section class="about py-5">
+      <div class="container py-5">
+        <div class="row abus_content">
+          <div class="col-lg-5">
+            <h6>About Us</h6>
+            <h3>We found our creative space that is open for you.</h3>
+          </div>
+          <div class="col-lg-7">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Veritatis nulla exercitationem id facere similique iste dolorem
+              voluptatem distinctio, inventore ex! Dolorem commodi quisquam,
+              architecto soluta quaerat blanditiis repellendus in officiis.
+              <br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+              quisquam temporibus nisi soluta quaerat. Corporis eligendi omnis
+              itaque aliquam illum quasi ratione quia ad hic.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- End About Us -->
     <!-- Feature -->
-    <section class="feature"></section>
+    <section class="best">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="best_img col-lg-6"></div>
+          <div class="col-lg-6 px-lg-5 py-5" style="background-color: #ff6900">
+            <div class="best_left p-4">
+              <h6>More than 3000 Restaurants</h6>
+              <h3>Book a table easly at the best price</h3>
+              <p class="my-3">
+                Vestibulum ante ipsum primis in faucibus orci luctus turpis
+                sodales quis. Integer sit amet mattis quam.Vivamus a ligula quam
+                tesque et libero ut justo ultrices in.
+              </p>
+              <div class="best_deal_food row mt-5">
+                <div class="best_deals col">
+                  <div class="best_icon mb-4">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                  </div>
+                  <a href="#">Best Deals</a>
+                  <p class="mt-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Iste, ullam?
+                  </p>
+                </div>
+                <div class="best_food col">
+                  <div class="best_icon mb-4">
+                    <i class="fa-solid fa-utensils"></i>
+                  </div>
+                  <a href="#">Best Food</a>
+                  <p class="mt-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Iste, ullam?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- End Feature -->
     <!-- Category -->
     <section class="category"></section>
