@@ -253,6 +253,20 @@ button.close {
   background-size: cover;
 }
 
+.best__image-container {
+  background-color: black;
+  min-height: 100%;
+}
+
+.best img {
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+.best__image {
+  opacity: 1 !important;
+}
+
 /* Light theme */
 #myBody {
   background-color: white;

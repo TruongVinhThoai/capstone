@@ -53,8 +53,8 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="#">Diner</a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <form class="search">
+          <div class="d-flex align-items-center" id="navbarSupportedContent">
+            <form class="search d-none d-lg-block">
               <input
                 type="search"
                 class="search_input"
@@ -121,7 +121,7 @@
     <!-- End Header  -->
     <!-- Banner -->
     <section class="crs">
-      <div class="container py-5">
+      <div class="container px-0 py-5">
         <div class="crs_info col-12 col-lg-6">
           <h3>The Only Thing We Love More Than Food Is You!</h3>
           <p>
@@ -163,9 +163,29 @@
     <section class="best">
       <div class="container-fluid">
         <div class="row">
-          <div class="best_img col-lg-6"></div>
-          <div class="col-lg-6 px-lg-5 py-5" style="background-color: #ff6900">
+          <div
+            class="d-none d-lg-block position-relative w-100 col-12 col-lg-6 p-0 m-0 best__image-container"
+          >
+            <img
+              src="../assets/images/banner3.jpg"
+              class="w-100 h-100 p-0 position-absolute m-0 object-fit-cover start-0 top-0 left-0"
+              alt=""
+            />
+          </div>
+          <div
+            class="col-12 col-lg-6 px-lg-5 py-5"
+            style="background-color: #ff6900"
+          >
             <div class="best_left p-4">
+              <div
+                class="d-block d-lg-none mb-4 position-relative w-100 p-0 m-0 best__image-container"
+              >
+                <img
+                  src="../assets/images/banner3.jpg"
+                  class="w-100 h-100 p-0 m-0 object-fit-cover start-0 top-0 left-0"
+                  alt=""
+                />
+              </div>
               <h6>More than 3000 Restaurants</h6>
               <h3>Book a table easly at the best price</h3>
               <p class="my-3">
