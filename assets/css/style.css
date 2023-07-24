@@ -298,6 +298,9 @@ button.close {
   background-color: #333;
   color: white;
 }
+.dark .about {
+  background-color: #333;
+}
 /* BEST DARK */
 .dark .best_left {
   color: white;
