@@ -12,6 +12,9 @@
   margin-right: auto;
   margin-left: auto;
 }
+.dark body {
+  background-color: #232220;
+}
 /* Header */
 header {
 }
@@ -35,6 +38,7 @@ header {
   margin-right: -15px;
   margin-left: -15px;
 }
+
 .category {
   background: #f7f7f7;
 }
