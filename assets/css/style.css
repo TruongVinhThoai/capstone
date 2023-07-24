@@ -5,7 +5,7 @@
 }
 /* Header */
 
-.navbar a{
+.navbar a {
   color: white;
 }
 
@@ -14,7 +14,7 @@
   position: absolute;
   left: 0;
   top: 0;
-  width: 100%
+  width: 100%;
 }
 
 .navbar-brand {
@@ -35,14 +35,14 @@
   margin-left: -35px;
 }
 
-.btn_btn{
+.btn_btn {
   color: white;
   font-size: 28px;
   background: none;
   border: none;
 }
 
-#toggle-button{
+#toggle-button {
   background: none;
   border: none;
   font-size: 28px;
@@ -52,7 +52,7 @@
 
 .modal-content {
   background-color: transparent;
-  border: none
+  border: none;
 }
 
 .modal-header {
@@ -108,35 +108,36 @@ button.close {
   opacity: 1;
 }
 
-.modal-backdrop{
+.modal-backdrop {
   z-index: 0;
 }
 
-.search{
+.search {
   position: relative;
 }
 
-.search_input{
+.search_input {
   padding: 10px 30px;
   border: none;
   border-radius: 8px;
 }
 
-.search span i{
+.search span i {
   position: absolute;
-  top:15px;
+  top: 15px;
   right: 10px;
   /* line-height: 1; */
 }
 /* btn sun moon */
-.btnsunmoon{
+.btnsunmoon {
   font-size: 20px;
   width: 60px;
   margin: 20px;
 }
 /* banner */
 .crs {
-  background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)), url(../images/banner1.jpg);
+  background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)),
+    url(../images/banner1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: initial;
@@ -148,18 +149,14 @@ button.close {
   position: relative;
 }
 
-.crs_info{
-  margin-right: 50%;
-}
-
-.crs_info h3{
+.crs_info h3 {
   font-size: 55px;
   color: white;
   margin-bottom: 20px;
   font-weight: 600;
 }
 
-.crs_info p{
+.crs_info p {
   color: white;
   margin-bottom: 50px;
 }
@@ -174,36 +171,35 @@ button.close {
   font-weight: 700;
 }
 
-.crs button:hover{
+.crs button:hover {
   background: white;
   color: #ff6600;
 }
 
 /* About us */
-.about .row h6{
+.about .row h6 {
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 1px;
   color: #ff6600;
   display: block;
-  font-family: 'Pacifico';
+  font-family: "Pacifico";
 }
 
-
-.about .col-lg-5 h3{
+.about .col-lg-5 h3 {
   font-size: 40px;
   font-weight: 600;
 }
 
-.about .col-lg-7 p{
+.about .col-lg-7 p {
   line-height: 30px;
   color: rgba(22, 28, 45, 0.7);
   font-size: 18px;
 }
 
 /* best */
-.best_icon i{
+.best_icon i {
   background-color: white;
   border-radius: 10px;
   width: 70px;
@@ -212,68 +208,66 @@ button.close {
   text-align: center;
   font-size: 25px;
   color: #ff6600;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
-.best_deal_food a{
+.best_deal_food a {
   text-decoration: none;
 }
 
-.best_deal_food a{
-  color:black;
+.best_deal_food a {
+  color: black;
   font-size: 20px;
   font-weight: 700;
 }
 
-.best_deals:hover i{
+.best_deals:hover i {
   color: #ffc600;
 }
 
-.best_food:hover i{
+.best_food:hover i {
   color: #ffc600;
 }
 
-
-.best_left h6{
-  font-family: 'Pacifico';
+.best_left h6 {
+  font-family: "Pacifico";
   color: white;
   font-size: 20px;
 }
 
-.best_left h3{
+.best_left h3 {
   font-size: 40px;
   font-weight: 600;
 }
 
-.best_left p{
+.best_left p {
   line-height: 30px;
   color: white;
   font-size: 18px;
 }
 
-.best .best_img{
+.best .best_img {
   background: url(../images/banner3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 
 /* Light theme */
 #myBody {
   background-color: white;
-  }
-  #switchButton {
+}
+#switchButton {
   background-color: white;
   border: 0px solid black;
-  }
-  #switchButton .fa-sun {
+}
+#switchButton .fa-sun {
   display: none;
-  }
-  #switchButton .fa-moon {
+}
+#switchButton .fa-moon {
   display: block;
-  }
-  
+}
+
 /* Dark Theme*/
 .dark#myBody {
   background-color: #333;
@@ -282,7 +276,7 @@ button.close {
   background-color: #333;
 }
 
-.dark .search_input{
+.dark .search_input {
   background-color: #333;
   color: white;
 }
@@ -296,20 +290,20 @@ button.close {
 }
 
 /* About US dark */
-.dark .abus_content{
+.dark .abus_content {
   background-color: #333;
   color: white;
 }
-.dark .abus_content p{
+.dark .abus_content p {
   background-color: #333;
   color: white;
 }
 /* BEST DARK */
-.dark .best_left{
+.dark .best_left {
   color: white;
 }
 
-.dark .best_deal_food a{
+.dark .best_deal_food a {
   color: white;
 }
 /* End Feature */
