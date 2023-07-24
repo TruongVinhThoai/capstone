@@ -115,7 +115,6 @@ header {
 .category .gal-slide-info {
   left: auto;
   bottom: 0;
-  width: 95%;
   position: absolute;
   color: #fff;
   transform: translate3d(0, 10%, 0);
@@ -367,14 +366,11 @@ p.count-text {
 }
 /* Dark status */
 .dark .status {
-  background-color: #ff6600;
-  position: relative;
-  z-index: -1;
+  background-color: #232220;
 }
 .dark .counter {
   background-color: #232220;
-  position: relative;
-  z-index: 10;
+  margin-top: -50px;
 }
 .dark .timer {
   color: #eee;
@@ -485,6 +481,10 @@ div#small-dialog iframe {
   animation: ripple 1s linear infinite;
   color: #ff6600;
   background: #fff;
+}
+
+.video-play-icon i {
+  font-size: 26px;
 }
 
 /* End VideoPopup */
@@ -697,6 +697,7 @@ ul {
   height: 50px;
   border-radius: 50%;
   background-color: #ff6600;
+  z-index: 99;
 }
 
 #movetop:focus {
