@@ -1,3 +1,3 @@
 document.getElementById("switchButton").onclick = function () {
-  document.body.classList.toggle("dark");
+  document.getElementById("myBody").classList.toggle("dark");
 };
