@@ -293,7 +293,7 @@ button.close {
 
 /* Dark Theme*/
 .dark#myBody {
-  background-color: #333;
+  background-color: #232220;
 }
 .dark #switchButton {
   background-color: #333;
@@ -420,7 +420,6 @@ button.close {
 }
 .service-item p {
   margin: 0;
-  font-size: 18px;
   line-height: 28px;
   color: rgba(22, 28, 45, 0.7);
 }
